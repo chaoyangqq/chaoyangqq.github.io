@@ -3,7 +3,7 @@ title: 李胖子的博客
 SEOTitle: Li's Blog
 header-img: img/home-bg.jpg
 email: decaywood@qq.com
-description: "Hi, I'm decaywood"
+description: "Hi, I'm Lichaoyang"
 keywords: "Python Javascript Datascience..."
 github-source: https://github.com/chaoyangqq/chaoyangqq.github.io
 url: https://chaoyangqq.github.io/
@@ -37,7 +37,7 @@ kramdown:
 # Duoshuo settings
 duoshuo_username: decaywood
 # Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+duoshuo_share: false                     # set to false if you want to use Comment without Sharing
 
 # SNS settings
 RSS: true
