@@ -62,6 +62,7 @@ header-img: "img/about-bg.jpg"
 <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
 <script>
 var gitment = new Gitment({
+  id: 'about',
   owner: 'chaoyangqq',
   repo: 'Gitment',
   oauth: {
@@ -69,7 +70,7 @@ var gitment = new Gitment({
     client_secret: 'da808f4fa3167f4855f140ba6effa407d0c488d7',
   },
 })
-gitment.render('comments')
+gitment.render('container')
 </script>
 
 
