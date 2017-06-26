@@ -113,8 +113,8 @@
     var exception = "{{ page.exception }}";
     var debug = "{{ site.debug }}";
     var pagePath = "{{ site.github-source }}/tree/master/{{ page.path }}";
-    var cssPath = "{{ site.cdnurl }}/css/";
-    var jsPath = "{{ site.cdnurl }}/js/";
+    var cssPath = "{{ site.cdnurl }}css/";
+    var jsPath = "{{ site.cdnurl }}js/";
     var _gaId = "{{ site.ga_track_id }}";
     var _gaDomain = "{{ site.ga_domain }}";
     var _baId = "{{ site.ba_track_id }}";
@@ -124,9 +124,9 @@
     var imgCount = "{{ site.post-img-count }}";
     var headerImg;
     if(pageRandom) {
-        headerImg = "{{ site.cdnurl }}/img/post/" + Math.ceil(Math.random() * imgCount) + ".jpg";
+        headerImg = "{{ site.cdnurl }}img/post/" + Math.ceil(Math.random() * imgCount) + ".jpg";
     } else {
-        headerImg = "{{ site.cdnurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}";
+        headerImg = "{{ site.cdnurl }}{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}";
     }
 </script>
 <!-- Bootstrap Core JavaScript -->
@@ -134,4 +134,4 @@
 <!-- Animation -->
 <script src="//cdn.bootcss.com/animsition/4.0.1/js/animsition.min.js"></script>
 <!-- Custom Theme JavaScript -->
-<script src="{{site.cdnurl}}/js/decaywood-blog.min.js?v=2.2.5beta"></script>
+<script src="{{site.cdnurl}}js/decaywood-blog.min.js?v=2.2.5beta"></script>
