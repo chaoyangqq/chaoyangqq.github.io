@@ -63,7 +63,7 @@ github_username:    chaoyangqq
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: coding... refactoring... sharing...
-sidebar-avatar: img/avatar-decaywood.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: http://orh810fmw.bkt.clouddn.com/avatar-decaywood.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
