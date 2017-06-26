@@ -10,7 +10,7 @@ url: https://chaoyangqq.github.io/
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # CDN Accelerate
-# cdnurl: https://chaoyangqq.github.io/
+cdnurl: https://chaoyangqq.github.io/
 #cdnurl: ""
 #debug: true
 
