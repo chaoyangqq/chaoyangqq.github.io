@@ -1,7 +1,7 @@
 ---
 layout:     post
 random-img: true
-title:      pycharm不能使用matplotlib
+title:      pycharm使用matplotlib报错
 subtitle:   
 date:       2017-6-29
 author:     LiChaoyang
